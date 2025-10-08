@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    /* overflow: hidden; */
+    display: flex;
+}
+
+.navLink{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navLink:hover{
+    background-color: #04e610;
+}
+
+.active{
+  background-color: #04e610;
+}

@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+  background-color: white;
+}
+
+body {
+  background-color: white;
+}
+
+
+.videolist{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border: 1px solid white;
+  justify-content: flex-start;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.input-box{
+  width: 600px;
+  padding: 8px;
+}
+
+#format-selector{
+  margin-bottom: 10px;
+}
+
+.btn{
+  display: flex;
+  gap: 20px;
+}
+button{
+  background-color: white;
+  border: 1px solid black;
+  background-color: rgb(252, 232, 120);
+  color: black;
+  
+}
+
+.loader{
+  border: 3px solid grey;
+  border-top: 3px solid rgb(6, 30, 247);
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
